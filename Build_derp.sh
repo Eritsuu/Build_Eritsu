@@ -26,7 +26,7 @@ git clone https://github.com/Eritsuu/vendor_lineage-priv_keys.git vendor/lineage
 
 # Export
 export BUILD_USERNAME=Eritsu
-export BUILD_HOSTNAME=craveFt.Eritsu
+export BUILD_HOSTNAME=crave
 export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 echo "======= Export Done ======"
 
