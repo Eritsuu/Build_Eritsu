@@ -25,19 +25,19 @@ echo "============="
 git clone https://github.com/Eritsuu/vendor_lineage-priv_keys.git vendor/lineage-priv/keys
 
 # Export
-export BUILD_USERNAME=Eritsu Kikuya
-export BUILD_HOSTNAME=crave Ft. Eritsu
+export BUILD_USERNAME=Eritsu
+export BUILD_HOSTNAME=craveFt.Eritsu
 export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 echo "======= Export Done ======"
 
 # Set up build environment
-. build/envsetup.sh
+. build/envsetup.sh;
 echo "====== Envsetup Done ======="
 
 # Lunch
 lunch derp_Mi439_4_19-userdebug;
-make installclean
+make installclean;
 echo "====== MAKAN SIANG :) ======="
 
 # Build ROM
-mka derp
+mka derp;
